@@ -1,0 +1,174 @@
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.container {
+    background-color: hsl(217, 54%, 11%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box {
+    background-color: hsl(216, 50%, 16%);
+    width: 400px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 6px 6px 14px hsl(217, 54%, 5%), -6px -6px 14px hsl(217, 54%, 5%);
+}
+
+.img-nft {
+    width: 85%;
+    padding: 30px;
+    border-radius: 10%;
+}
+
+.content {
+    width: 85%;
+}
+
+.nft {
+    margin-bottom: 30px;
+}
+
+.nft h1 {
+    font-size: 25px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    padding-bottom: 20px;
+}
+
+.nft a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.nft a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.nft p {
+    font-size: 20px;
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    line-height: 25px;
+}
+
+.coin {
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+    padding-bottom: 30px;
+}
+
+.coin ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.coin li {
+    display: flex;
+    justify-items: space-between;
+}
+
+.coin .ethereum p {
+    color: hsl(178, 100%, 50%);
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 6px;
+}
+
+.coin .clock p {
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 6px;
+}
+
+.profile {
+    margin: 20px 0 40px 0;
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 40px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+
+.profile p {
+    padding-left: 20px;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.profile a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+.profile a:hover {
+    color: hsl(178, 100%, 50%)
+}
+
+footer {
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+    color: hsl(215, 51%, 70%);
+}
+
+footer a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: hsl(178, 100%, 50%)
+}
+
+@media (max-width: 470px) {
+    .box {
+        width: 275px;
+    }
+
+    .img-nft {
+        width: 85%;
+        padding: 20px;
+    }
+
+    .nft h1 {
+        font-size: 18px;
+    }
+
+    .nft p {
+        font-size: 14px;
+    }
+
+    .profile p {
+        font-size: 14px;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+
+    footer a {
+        font-size: 12px;
+    }
+}
