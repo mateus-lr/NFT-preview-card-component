@@ -26,7 +26,7 @@ This is my second challenge on Frontend Mentor.
 
 ### Links 
 
-[live Site](https://mateus-lr.github.io/QR-code-component-challenge-on-Frontend-Mentor/)
+[live Site](https://mateus-lr.github.io/NFT-preview-card-component/)
 
 ### Built with
 
