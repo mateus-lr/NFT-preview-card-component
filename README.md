@@ -15,7 +15,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ## Overview
 
-This is my first challenge on Frontend Mentor. I expect do one per day to train my HTML and CSS abilitys.
+This is my second challenge on Frontend Mentor. 
 
 ### Screenshot
 
